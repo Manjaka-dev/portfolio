@@ -28,7 +28,9 @@ export default function AboutPage() {
                 structurés.
               </p>
               <div className="flex space-x-4">
-                <Button>Télécharger CV</Button>
+                <Button asChild>
+                  <a href="/portfolio-website/cv.pdf" download>Télécharger CV</a>
+                </Button>
                 <Button variant="outline">Contactez-moi</Button>
               </div>
             </div>
