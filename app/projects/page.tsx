@@ -32,7 +32,7 @@ export default function ProjectsPage() {
               Je suis toujours à la recherche de nouveaux défis et opportunités de collaboration. N'hésitez pas à me
               contacter pour discuter de votre projet.
             </p>
-            <Button asChild size="lg">
+            <Button asChild>
               <Link href="/contact">
                 Contactez-moi
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -62,7 +62,7 @@ function ProjectCard({ title, description, tags, imageSrc, projectLink }: Projec
       <CardContent className="p-6">
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag, index) => (
-            <Badge key={index} variant="secondary">
+            <Badge key={index}>
               {tag}
             </Badge>
           ))}
@@ -70,14 +70,14 @@ function ProjectCard({ title, description, tags, imageSrc, projectLink }: Projec
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
         {projectLink ? (
-          <Button variant="outline" className="w-full group" asChild>
+          <Button className="w-full group" asChild>
             <a href={projectLink} target="_blank" rel="noopener noreferrer">
               Visiter le site
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
         ) : (
-          <Button variant="outline" className="w-full group">
+          <Button className="w-full group">
             Voir le projet
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Button>
@@ -98,9 +98,10 @@ const projects = [
   },
   {
     title: "Portfolio personnel",
-    description: "Conception et développement de mon portfolio personnel utilisant Next.js et Tailwind CSS.",
-    tags: ["React", "Next.js", "Tailwind CSS"],
-    imageSrc: "/placeholder.jpg",
+    description: "Conception et développement de mon portfolio personnel moderne et réactif. Une vitrine élégante présentant mes projets, compétences et expériences professionnelles.",
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Vercel", "Responsive Design", "UI/UX"],
+    imageSrc: "/portfolio.png",
+    projectLink: "https://v0-portfolio-gilt-eight-72.vercel.app/"
   },
   {
     title: "Projet en cours",

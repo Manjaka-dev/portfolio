@@ -121,8 +121,9 @@ export default function Home() {
               </div>
               <ProjectCard
                 title="Portfolio personnel"
-                description="Création de mon portfolio personnel pour présenter mes projets et compétences en développement web."
-                imageSrc="/placeholder.jpg"
+                description="Conception et développement de mon portfolio personnel moderne et réactif. Une vitrine élégante présentant mes projets, compétences et expériences professionnelles."
+                imageSrc="/portfolio.png"
+                projectLink="https://v0-portfolio-gilt-eight-72.vercel.app/"
               />
             </div>
           </div>
