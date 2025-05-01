@@ -29,7 +29,7 @@ export default function AboutPage() {
               </p>
               <div className="flex space-x-4">
                 <Button asChild>
-                  <a href="/portfolio-website/cv.pdf" download>Télécharger CV</a>
+                  <a href="/cv.pdf" download>Télécharger CV</a>
                 </Button>
                 <Button variant="outline">Contactez-moi</Button>
               </div>
