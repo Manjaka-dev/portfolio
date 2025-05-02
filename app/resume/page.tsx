@@ -98,7 +98,7 @@ export default function ResumePage() {
             <section>
               <h2 className="text-xl font-bold mb-4 border-b pb-2">CENTRES D'INTÉRÊT</h2>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Natation</span>
+                <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Programation</span>
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Lecture</span>
                 <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Randonnée</span>
               </div>

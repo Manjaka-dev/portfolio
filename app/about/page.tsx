@@ -112,7 +112,7 @@ export default function AboutPage() {
         <section>
           <h2 className="text-3xl font-bold mb-8 text-center">CENTRES D'INTÉRÊT</h2>
           <div className="flex flex-wrap justify-center gap-6">
-            <InterestCard icon={<Heart />} title="Natation" />
+            <InterestCard icon={<Heart />} title="Programation" />
             <InterestCard icon={<BookOpen />} title="Lecture" />
             <InterestCard icon={<Heart />} title="Randonnée" />
           </div>
