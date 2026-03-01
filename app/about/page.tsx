@@ -1,4 +1,5 @@
 import type React from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Code, Database, Server, Settings, Users, FileText, BookOpen, Heart } from "lucide-react"
@@ -31,7 +32,9 @@ export default function AboutPage() {
                 <Button asChild>
                   <a href="/cv.pdf" download>Télécharger CV</a>
                 </Button>
-                <Button variant="outline">Contactez-moi</Button>
+                <Button variant="outline" asChild>
+                  <Link href="/contact">Contactez-moi</Link>
+                </Button>
               </div>
             </div>
           </div>

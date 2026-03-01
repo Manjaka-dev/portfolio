@@ -57,3 +57,43 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Animation fluide pour les interactions */
+  .smooth-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  /* Amélioration des états hover */
+  .hover-lift {
+    @apply transform hover:scale-105 transition-transform duration-300;
+  }
+
+  /* Scroll behavior fluide */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Style pour les sections */
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  /* Style pour les containers */
+  .page-container {
+    @apply container mx-auto px-4 md:px-6;
+  }
+}
+
+@layer components {
+  /* Style pour les cartes de projet */
+  .project-card {
+    @apply bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+
+  /* Style pour les boutons principaux */
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+}
+

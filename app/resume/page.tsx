@@ -7,7 +7,7 @@ export default function ResumePage() {
         {/* Header */}
         <div className="bg-gray-900 text-white p-6 md:p-8">
           <h1 className="text-3xl font-bold">ANDRIANTSOA Andrivola Manjaka</h1>
-          <p className="mt-2 text-gray-300">Étudiant en deuxième année d'informatique</p>
+          <p className="mt-2 text-gray-300">Étudiant en informatique</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 md:p-8">
@@ -127,7 +127,7 @@ export default function ResumePage() {
                       <h3 className="font-semibold">Administrateur Web et Système</h3>
                       <p className="text-gray-600">Join-Nextgen - Antananarivo</p>
                     </div>
-                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2025</span>
+                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2024-2025</span>
                   </div>
                   <ul className="mt-2 list-disc pl-5 text-gray-700">
                     <li>Maintenance et supervision du site web et du serveur.</li>
@@ -141,7 +141,7 @@ export default function ResumePage() {
                       <h3 className="font-semibold">Boursier AccèsEducation</h3>
                       <p className="text-gray-600">Accèsbanque - Antananarivo</p>
                     </div>
-                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2024</span>
+                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2024-2026</span>
                   </div>
                   <ul className="mt-2 list-disc pl-5 text-gray-700">
                     <li>Participation à des ateliers.</li>
@@ -152,10 +152,24 @@ export default function ResumePage() {
                 <div>
                   <div className="flex justify-between items-start">
                     <div>
+                      <h3 className="font-semibold">Développeur freelance</h3>
+                      <p className="text-gray-600">I-Tsika - Antananarivo</p>
+                    </div>
+                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2025-2026</span>
+                  </div>
+                  <ul className="mt-2 list-disc pl-5 text-gray-700">
+                    <li>Gestion de projet conception et développement d'applications.</li>
+                    <li>Gestion de relation client.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-start">
+                    <div>
                       <h3 className="font-semibold">Responsable logistique</h3>
                       <p className="text-gray-600">Association TITANIUM - Antananarivo</p>
                     </div>
-                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2017</span>
+                    <span className="bg-gray-100 px-2 py-1 rounded text-xs">2017-2025</span>
                   </div>
                   <ul className="mt-2 list-disc pl-5 text-gray-700">
                     <li>Gestion de la logistique avant et durant les événements.</li>
@@ -199,6 +213,7 @@ export default function ResumePage() {
                   <h3 className="font-semibold mb-2">Langages de programmation</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">JavaScript</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">C++</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">C#</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Python</span>
@@ -209,9 +224,12 @@ export default function ResumePage() {
                   <h3 className="font-semibold mb-2">Frameworks</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Laravel</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">ReactJS</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">VueJS</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Ionic</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">FlightPHP</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">CodeIgniter</span>
-                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">SpringMVC</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">SpringBoot</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Django</span>
                   </div>
                 </div>
@@ -222,6 +240,7 @@ export default function ResumePage() {
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">SQLite</span>
                     <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Oracle Database</span>
+                    <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">Firebase</span>
                   </div>
                 </div>
               </div>

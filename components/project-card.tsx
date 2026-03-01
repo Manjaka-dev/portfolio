@@ -1,14 +1,17 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 interface ProjectCardProps {
   title: string
   description: string
   imageSrc: string
+  projectLink?: string
 }
 
-export function ProjectCard({ title, description, imageSrc }: ProjectCardProps) {
+export function ProjectCard({ title, description, imageSrc, projectLink }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden">
       <div className="relative h-64">
@@ -17,31 +20,21 @@ export function ProjectCard({ title, description, imageSrc }: ProjectCardProps) 
       <CardContent className="p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
-        <Button variant="outline" className="group">
-          En savoir plus
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform"
-          >
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-          </svg>
-        </Button>
+        {projectLink ? (
+          <Link href={projectLink} target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="group w-full">
+              Visiter le projet
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
+        ) : (
+          <Button variant="outline" className="group w-full">
+            En savoir plus
+            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          </Button>
+        )}
       </CardContent>
     </Card>
   )
 }
 
-<ProjectCard
-  title="Join-Nextgen"
-  description="Maintenance et supervision du site web et du serveur. Mises à jour et correctifs techniques réguliers."
-  imageSrc="/nextgen.JPG"
-/>
