@@ -53,7 +53,7 @@ export default function Home() {
           <div className="page-container">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Découvrez mes projets récents</h2>
-              <p className="text-gray-700 mb-4">Je résous des problèmes utilisateurs et business depuis plus de 15 ans.</p>
+              <p className="text-gray-700 mb-4">Je conçois des solutions web utiles et évolutives adaptées aux besoins utilisateurs.</p>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Chaque projet est conçu pour résoudre des problèmes spécifiques avec des solutions innovantes.
               </p>

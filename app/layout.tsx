@@ -13,7 +13,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "ANDRIANTSOA A. Manjaka - Portfolio",
   description: "Portfolio personnel de ANDRIANTSOA A. Manjaka, étudiant en informatique",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.png',
+  }
 }
 
 export default function RootLayout({
