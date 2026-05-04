@@ -35,7 +35,7 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Globe className="h-4 w-4 text-gray-600" />
-                  <span>linkedin.com/in/andrivola-manjaka-andriantsoa-086204290</span>
+                  <span>linkedin.com/in/manjaka-andriantsoa</span>
                 </div>
               </div>
             </section>

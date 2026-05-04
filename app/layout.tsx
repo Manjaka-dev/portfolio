@@ -94,7 +94,12 @@ export default function RootLayout({
                   © {new Date().getFullYear()} ANDRIANTSOA A. Manjaka. Tous droits réservés.
                 </p>
                 <div className="flex gap-4">
-                  <Link href="https://www.linkedin.com/in/andrivola-manjaka-andriantsoa-086204290" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground transition-colors hover:text-foreground hover:text-blue-600">
+                  <Link
+                    href="https://www.linkedin.com/in/manjaka-andriantsoa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground hover:text-blue-600"
+                  >
                     LinkedIn
                   </Link>
                   <Link href="https://github.com/Manjaka-dev" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground transition-colors hover:text-foreground hover:text-gray-800">
